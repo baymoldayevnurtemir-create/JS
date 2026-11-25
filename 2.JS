@@ -4,7 +4,7 @@ function getSeason(month, temperature) {
     }
 
     if (month < 1 || month > 12) {
-        return "Ошибка - такого месяца нету";
+        return "Ошибка -  месяца нету";
     }
 
     if ((month === 12 || month === 1 || month === 2) && temperature <= 5) {
@@ -28,4 +28,4 @@ console.log(getSeason(1, 3));
 console.log(getSeason(4, 15));
 console.log(getSeason(7, 25));
 console.log(getSeason(10, 15));
-console.log(getSeason(15, 10));
+console.log(getSeason(15, 10)); 
